@@ -1,0 +1,37 @@
+*{
+    padding: 1%;
+    margin: 0%
+}
+body{
+    
+    background-image: url(/bigbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+}
+#login{
+    background-image: url(/small1.jpg);
+    padding: 4%;
+    width: 26em;
+    height: 30em;
+    margin: auto;
+    margin-top: 3%;
+}
+h1{
+    text-align: center;
+    color:rgb(27, 172, 129);
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+#login label{
+font-size:larger;
+font-weight: 480;
+}
+#ogin input{
+    height: 2em;
+}
+#login button
+{width: 90%;
+ height: 2.5em;
+ color: white;
+background-color:dodgerblue;
+}
