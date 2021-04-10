@@ -13,7 +13,10 @@ function val(callback){
     else{
     alert ("Invalid credentials");}}
 
-function callback(){
-    var nav=document.getElementById("login");
-    nav.setAttribute("action","index.html");
-} 
+    function callback(){
+        console.log("callack")
+        var nav=document.getElementById("loginform");
+        nav.setAttribute("action","home.html")
+    
+        return false;
+    }
